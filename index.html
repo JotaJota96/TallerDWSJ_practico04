@@ -8,95 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
     <title>Plantilla Bootstrap</title>
 
-    <style>
-        .fa {
-            padding: 20px;
-            font-size: 30px;
-            width: 70px;
-            text-align: center;
-            text-decoration: none;
-            margin: 5px 2px;
-            border-radius: 50%;
-        }
-
-        .fa:hover {
-            opacity: 0.7;
-        }
-
-        .fa-facebook {
-            background: #3B5998;
-            color: white;
-        }
-
-        .fa-twitter {
-            background: #55ACEE;
-            color: white;
-        }
-
-
-        .fa-instagram {
-            background: #940068;
-            color: white;
-        }
-
-        #logo {
-            width: 100%;
-        }
-
-        #titulo {
-            font-size: 8vw;
-        }
-
-        body {
-            background-color: rgb(255, 167, 126);
-        }
-
-        #fondo-cards {
-            background-color: rgb(245, 185, 157);
-        }
-
-        header {
-            background-color: rgb(248, 98, 29);
-        }
-
-        .fa {
-            padding: 20px;
-            font-size: 30px;
-            width: 70px;
-            text-align: center;
-            text-decoration: none;
-            margin: 5px 2px;
-            border-radius: 50%;
-        }   
-        .navbar{
-            background-color: rgb(167, 53, 0);
-        }
-
-        #navh3id{
-            color: azure;
-        }
-
-
-
-        #container-menu-superior{
-            background-color: rgb(167, 53, 0);
-        }
-        /* ancho menor a 992px */
-        @media (max-width: 992px) {
-            #container-menu-superior{
-                display: none;
-            }
-        }
-        /* ancho mayor a 992px */
-        @media (min-width: 992px) {
-            #container-menu-lateral{
-                display: none;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -166,88 +81,6 @@
         </div>
     </header>
 
-    <script>
-        function funNoFound(){
-            alert("Esta función aún no está habilitada");
-        }
-    </script>
-
-    <style>
-        /* The side navigation menu */
-        .sidenav {
-            height: 100%;
-            /* 100% Full-height */
-            width: 0;
-            /* 0 width - change this with JavaScript */
-            position: fixed;
-            /* Stay in place */
-            z-index: 1;
-            /* Stay on top */
-            top: 0;
-            /* Stay at the top */
-            right: 0;
-            background-color: #111;
-            /* Black*/
-            overflow-x: hidden;
-            /* Disable horizontal scroll */
-            padding-top: 60px;
-            /* Place content 60px from the top */
-            transition: 0.5s;
-            /* 0.5 second transition effect to slide in the sidenav */
-        }
-
-        /* The navigation menu links */
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-        }
-
-        /* When you mouse over the navigation links, change their color */
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-        /* Position and style the close button (top right corner) */
-        .sidenav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-        /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-        #main {
-            transition: margin-left .5s;
-            padding: 20px;
-        }
-
-        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-        @media screen and (max-height: 450px) {
-            .sidenav {
-                padding-top: 15px;
-            }
-
-            .sidenav a {
-                font-size: 18px;
-            }
-        }
-    </style>
-    <script>
-        /* Open the sidenav */
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "100%";
-        }
-
-        /* Close/hide the sidenav */
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        } 
-    </script>
 
     <!-- Seccion con imagenes -->
     <!--https://picsum.photos/960/720-->
@@ -360,6 +193,7 @@
         </div>
     </footer>
 
+    <script src="js/funciones.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

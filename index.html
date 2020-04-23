@@ -71,6 +71,15 @@
             margin: 5px 2px;
             border-radius: 50%;
         }   
+        .navbar{
+            background-color: rgb(167, 53, 0);
+        }
+
+        #navh3id{
+            color: azure;
+        }
+
+
 
         #container-menu-superior{
             background-color: rgb(167, 53, 0);
@@ -126,22 +135,22 @@
                 <div id="containcer-menu-superior" class="col-12">
                     <div class="container">
 
-                    <nav class="navbar navbar-expand-md " style="background-color: rgb(167, 53, 0); ">
+                    <nav class="navbar navbar-expand-md">
                         <div class="collapse navbar-collapse">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">
-                                        <h3 style="color: azure;">Inicio</h3>
+                                    <a class="nav-link" href="#" onclick="funNoFound()">
+                                        <h3 id="navh3id">Inicio</h3>
                                     </a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">
-                                        <h3 style="color: azure;">Especies</h3>
+                                    <a class="nav-link" href="#" onclick="funNoFound()">
+                                        <h3 id="navh3id">Especies</h3>
                                     </a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">
-                                        <h3 style="color: azure;">Galeria</h3>
+                                    <a class="nav-link" href="#" onclick="funNoFound()">
+                                        <h3 id="navh3id">Galeria</h3>
                                     </a>
                                 </li>
             
@@ -156,6 +165,12 @@
             </div>
         </div>
     </header>
+
+    <script>
+        function funNoFound(){
+            alert("Esta función aún no está habilitada");
+        }
+    </script>
 
     <style>
         /* The side navigation menu */
@@ -339,7 +354,7 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-12">
+            <div class="col-12 ">
                 <small>Copyright &copy; Todos los derechos reservados</small>
             </div>
         </div>
